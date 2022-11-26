@@ -26,4 +26,4 @@ import configuration from './configuration';
   providers: [ConfigService, MailConfigService],
   exports: [ConfigService, MailConfigService],
 })
-export class AppConfigModule {}
+export class MailConfigModule {}

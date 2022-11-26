@@ -21,4 +21,4 @@ import configuration from './configuration';
   providers: [ConfigService, DatabaseConfigService],
   exports: [ConfigService, DatabaseConfigService],
 })
-export class AppConfigModule {}
+export class DatabaseConfigModule {}
