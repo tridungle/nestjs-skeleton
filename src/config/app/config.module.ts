@@ -20,6 +20,10 @@ import configuration from './configuration';
           .default('development'),
         APP_URL: Joi.string().default('http://localhost'),
         APP_PORT: Joi.number().default(9000),
+        APP_DESCRIPTION: Joi.string().default(
+          'A Nest API Skeleton with CRUD functionality',
+        ),
+        APP_VERSION: Joi.string().default(process.env.npm_package_version),
       }),
     }),
   ],
